@@ -22,8 +22,8 @@ export default class Cards extends Component {
       stationsN : [],  
       stationsS: [],    
       complaints: this.defaultComplaints.map((el) => Object.assign({}, el))
-    }
-    this.handleChange = this.handleChange.bind(this)
+    };
+    this.handleChange = this.handleChange.bind(this);
     this.handleAdd = this.handleAdd.bind(this)
   }
   
