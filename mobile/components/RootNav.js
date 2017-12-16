@@ -1,15 +1,15 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
 import TrainLines from './TrainLines';
-import Lines from './Lines';
+import Details from './Details';
 
 export default RootNav = StackNavigator({
-  TrainLines: { 
+  TrainLines: {
     screen: TrainLines,
     navigationOptions: {
       header: null,
       headerMode: 'screen'
     }
-   },
-  Lines: { screen: Lines }
+  },
+  Details: { screen: Details }
 });
